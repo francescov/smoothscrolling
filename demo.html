@@ -1,29 +1,24 @@
 <html>
-<head>
-<title>smooth scrolling demo</title>
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="main.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css" />
-
-</head>
-<body>
-    
-    <h1 id="top">How to make smooth scrolling.</h1>
-
-<a href="#mysection1" rel="relativeanchor">Section 1</a>
-<a href="#mysection2" rel="relativeanchor">Section 2</a>
-
-<div style="height: 1500px;">This requires jQuery. <a href="#top" rel="relativeanchor">Go Back to Top</a></div>
-
-<div id="mysection1">Section 1</div>
-
-
-<div style="height: 1500px;">This requires jQuery. <a href="#top" rel="relativeanchor">Go Back to Top</a></div>
-    
-
-
-<div id="mysection2">Section 2</div>
-
-    <a href="#top" rel="relativeanchor">Go Back to Top</a>
-</body>
+	<head>
+		<title>smooth scrolling demo</title>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+	    <h1 id="top">How to make smooth scrolling.</h1>
+		<p>To enable smooth scrolling, all you need to do is add the "rel" attribute with value "relativeanchor". The link destination should be a page anchor.</p>
+		<p>The page will gracefully degrade to default behavior and jump, but with jQuery available, you can progressively enhance and enable the animation jump.</p>
+		<p><a href="#mysection1" rel="relativeanchor">Section 1</a></p>
+		<p><a href="#mysection2" rel="relativeanchor">Section 2</a></p>
+		<div style="height: 1500px;">
+			This requires jQuery. <a href="#top" rel="relativeanchor">Go Back to Top</a>
+		</div>
+		<div id="mysection1">Section 1</div>
+		<div style="height: 1500px;">
+			This requires jQuery. <a href="#top" rel="relativeanchor">Go Back to Top</a>
+		</div>
+		<div id="mysection2">Section 2</div>
+	    <p><a href="#top" rel="relativeanchor">Go Back to Top</a></p>
+	</body>
 </html>
